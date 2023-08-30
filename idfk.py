@@ -18,12 +18,6 @@ class TimeDelta(datetime.timedelta):
         else:
             return f'{self.minutes} minute{"s" if self.minutes > 1 else ""} ago'
 
-
-swears = [
-    'Your mom', 'Ligma balls',
-    'Γαμώ τη μάνα σου', 'Γαμώ τον πατέρα σου',
-    'كس أمك', 'يا حيوان يا خرا كل تيز أمك', 'تيز أمك'
-    ]
 yo_mama_jokes = [
     "Yo mama's so fat, when she fell I didn't laugh, but the sidewalk cracked up.",
     "Yo mama's so fat, when she skips a meal, the stock market drops.",
